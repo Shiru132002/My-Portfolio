@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navalta Femar M. — IT Risk &amp; Business Continuity | DMMMSU NLUC</title>
+  <meta name="description" content="Resume and portfolio of Navalta Femar M., Information Systems student at Don Mariano Marcos Memorial State University - NLUC. Specializing in IT Risk, Business Continuity, Disaster Recovery, and Service Management." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=Caveat:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#f5f0e8" />
+</head>
+<body>
+
+  <!-- Noise overlay for paper grain -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ─── NAVIGATION ─── -->
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__logo">
+      <span class="nav__logo-initial">F</span>
+      <span class="nav__logo-text">emar Navalta</span>
+    </div>
+    <ul class="nav__links" role="list">
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#skills" class="nav__link">Skills</a></li>
+      <li><a href="#projects" class="nav__link">Projects</a></li>
+      <li><a href="#experience" class="nav__link">Milestones</a></li>
+      <li><a href="#education" class="nav__link">Education</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+    <a href="assets/Navalta_Femar_Resume.pdf" class="nav__resume" id="resume-btn" download="Navalta_Femar_Resume.pdf" target="_blank" title="Download Navalta Femar M. Resume PDF">
+      <span>Resume PDF</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    </a>
+    <button class="nav__theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <span class="theme-icon theme-icon--light" aria-hidden="true">☀</span>
+      <span class="theme-icon theme-icon--dark" aria-hidden="true">🌙</span>
+    </button>
+    <button class="nav__hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation">
+    <ul role="list">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#experience" class="mobile-link">Milestones</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="hero" aria-label="Hero section">
+      <div class="hero__paper-stack" aria-hidden="true">
+        <div class="paper-sheet paper-sheet--3"></div>
+        <div class="paper-sheet paper-sheet--2"></div>
+        <div class="paper-sheet paper-sheet--1"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="hero__line" aria-hidden="true"></span>
+          <span class="hero__tag">Navalta Femar M. ✦ Information Systems Student</span>
+          <span class="hero__line" aria-hidden="true"></span>
+        </div>
+
+        <h1 class="hero__title">
+          <em class="hero__title-accent">IT Risk,</em><br/>
+          Business Continuity<br/>
+          <span class="hero__title-outline">&amp; Service</span><br/>
+          Management
+        </h1>
+
+        <p class="hero__subtitle">
+          Information Systems student at <strong>Don Mariano Marcos Memorial State University – NLUC</strong>, 
+          specializing in the <strong>Service Management Program (SMP)</strong>. Seeking an entry-level role in 
+          <strong>IT risk and business continuity</strong>, utilizing disaster recovery frameworks and security controls. 
+          Aspiring to launch a career in <strong>Japan's IT industry</strong> with high standards of quality and continuous improvement.
+        </p>
+
+        <div class="hero__contact-quick" style="display: flex; gap: 1rem; font-size: 0.88rem; color: var(--gold, #8B6914); margin-bottom: 1.5rem; flex-wrap: wrap;">
+          <span>📍 La Union, Philippines</span>
+          <span>📞 +63 09954310938</span>
+          <span>✉ femarnavalta@gmail.com</span>
+          <a href="https://github.com/Shiru132002" target="_blank" rel="noopener noreferrer" style="color: var(--gold, #8B6914); display: inline-flex; align-items: center; gap: 4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary" id="hero-work-btn">View Projects</a>
+          <a href="assets/Navalta_Femar_Resume.pdf" class="btn btn--ghost" id="hero-resume-btn" download="Navalta_Femar_Resume.pdf">Download Resume</a>
+        </div>
+
+        <div class="hero__signature" aria-label="Designer signature">
+          <svg viewBox="0 0 200 60" class="signature-svg" aria-hidden="true">
+            <path d="M10,45 C20,10 35,8 45,25 C55,42 65,48 80,30 C90,18 100,15 115,28 C125,38 135,45 150,35 C160,28 170,20 185,30" fill="none" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M15,50 C25,50 35,52 50,50" fill="none" stroke="#8B6914" stroke-width="1" stroke-linecap="round"/>
+          </svg>
+          <span class="hero__scroll-hint">Scroll to explore ↓</span>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__img-frame">
+          <img src="assets/profile_photo.jpg" alt="Navalta Femar M. - Information Systems Student" class="hero__bg-img" loading="eager" fetchpriority="high" />
+          <div class="hero__img-overlay"></div>
+          <div class="hero__sticker hero__sticker--1">✦ Dean's Lister</div>
+          <div class="hero__sticker hero__sticker--2">✦ DMMMSU NLUC</div>
+          <div class="hero__sticker hero__sticker--3">Cisco Certified</div>
+        </div>
+        <div class="hero__deco-line hero__deco-line--1" aria-hidden="true"></div>
+        <div class="hero__deco-line hero__deco-line--2" aria-hidden="true"></div>
+      </div>
+
+      <!-- Ruled lines decoration -->
+      <div class="hero__ruled" aria-hidden="true">
+        <div class="ruled-line"></div>
+        <div class="ruled-line"></div>
+        <div class="ruled-line"></div>
+        <div class="ruled-line"></div>
+        <div class="ruled-line"></div>
+      </div>
+    </section>
+
+    <!-- ─── MARQUEE STRIP ─── -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Navalta Femar M.</span><span class="marquee-dot">✦</span>
+        <span>DMMMSU NLUC</span><span class="marquee-dot">✦</span>
+        <span>IT Risk &amp; Business Continuity</span><span class="marquee-dot">✦</span>
+        <span>Disaster Recovery</span><span class="marquee-dot">✦</span>
+        <span>Service Management Program</span><span class="marquee-dot">✦</span>
+        <span>Cisco Cybersecurity</span><span class="marquee-dot">✦</span>
+        <span>SQL Database Management</span><span class="marquee-dot">✦</span>
+        <span>Systems Analysis &amp; Design</span><span class="marquee-dot">✦</span>
+        <span>Dean's Lister</span><span class="marquee-dot">✦</span>
+        <span>Aspiring Japan IT Career</span><span class="marquee-dot">✦</span>
+        <!-- duplicate for seamless loop -->
+        <span>Navalta Femar M.</span><span class="marquee-dot">✦</span>
+        <span>DMMMSU NLUC</span><span class="marquee-dot">✦</span>
+        <span>IT Risk &amp; Business Continuity</span><span class="marquee-dot">✦</span>
+        <span>Disaster Recovery</span><span class="marquee-dot">✦</span>
+        <span>Service Management Program</span><span class="marquee-dot">✦</span>
+        <span>Cisco Cybersecurity</span><span class="marquee-dot">✦</span>
+        <span>SQL Database Management</span><span class="marquee-dot">✦</span>
+        <span>Systems Analysis &amp; Design</span><span class="marquee-dot">✦</span>
+        <span>Dean's Lister</span><span class="marquee-dot">✦</span>
+        <span>Aspiring Japan IT Career</span><span class="marquee-dot">✦</span>
+      </div>
+    </div>
+
+    <!-- ─── ABOUT ─── -->
+    <section class="section about" id="about" aria-label="About me">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__text">
+            <div class="section-label">
+              <span class="section-label__num">01</span>
+              <span class="section-label__text">About Me &amp; Objective</span>
+            </div>
+            <h2 class="section-title">Dedicated to systems resilience &amp;<br/><em>service excellence</em></h2>
+            
+            <p class="about__lead">
+              I am <strong>Navalta Femar M.</strong>, an Information Systems student at 
+              <strong>Don Mariano Marcos Memorial State University – North La Union Campus (DMMMSU NLUC)</strong>, 
+              specializing in the <strong>Service Management Program (SMP)</strong>.
+            </p>
+
+            <blockquote style="background: rgba(139, 105, 20, 0.06); border-left: 3px solid var(--gold, #8B6914); padding: 1rem 1.25rem; margin: 1.25rem 0; font-family: var(--font-body, serif); font-style: italic; line-height: 1.65; color: var(--text-primary, #2c2318); border-radius: 0 4px 4px 0;">
+              "Looking for an entry-level role in IT risk and business continuity, where I can use my background in disaster recovery and security controls to help organizations keep their services running. Hoping to start my career in Japan's IT industry, where I can apply my service management skills, learn from its high standards of quality, and keep improving along the way."
+            </blockquote>
+
+            <p class="about__body">
+              <strong>Technical Background:</strong> Skilled in database management with SQL, systems analysis and design (SAD), process documentation, and data reporting using Microsoft Excel, as well as building basic web pages. I focus on creating reliable, secure database-driven applications that streamline daily operations.
+            </p>
+
+            <p class="about__body">
+              <strong>Leadership &amp; Communication:</strong> I demonstrate leadership by guiding group projects and technical presentations, with strong communication skills for explaining technical topics in plain language to non-technical stakeholders.
+            </p>
+
+            <div class="about__facts">
+              <div class="fact-card">
+                <span class="fact-card__num">Dean's List</span>
+                <span class="fact-card__label">2nd Sem, AY 2024-2025</span>
+              </div>
+              <div class="fact-card">
+                <span class="fact-card__num">Cisco</span>
+                <span class="fact-card__label">Intro to Cybersecurity</span>
+              </div>
+              <div class="fact-card">
+                <span class="fact-card__num">BSIS</span>
+                <span class="fact-card__label">DMMMSU NLUC</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__visual">
+            <div class="about__photo-frame">
+              <div class="about__photo-inner">
+                <img src="assets/profile_photo.jpg" alt="Navalta Femar M. - Portrait" class="about__photo-img" loading="eager" />
+                <div class="about__photo-caption-bar">
+                  <span class="about__photo-name">Navalta Femar M.</span>
+                  <span class="about__photo-sub">BSIS Student • DMMMSU NLUC</span>
+                </div>
+              </div>
+              <div class="about__photo-tape about__photo-tape--tl" aria-hidden="true"></div>
+              <div class="about__photo-tape about__photo-tape--tr" aria-hidden="true"></div>
+              <div class="about__photo-tape about__photo-tape--bl" aria-hidden="true"></div>
+              <div class="about__photo-tape about__photo-tape--br" aria-hidden="true"></div>
+            </div>
+            <div class="about__note" aria-hidden="true">
+              <span class="about__note-text">✦ Open to IT Risk, Continuity &amp; Service Roles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SKILLS ─── -->
+    <section class="section skills" id="skills" aria-label="Skills & Competencies">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">02</span>
+            <span class="section-label__text">Core Competencies</span>
+          </div>
+          <h2 class="section-title">Technical &amp; Leadership<br/><em>skill set</em></h2>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skill-card" id="skill-db">
+            <div class="skill-card__icon" aria-hidden="true">🗄️</div>
+            <h3 class="skill-card__title">Database Management with SQL</h3>
+            <p class="skill-card__desc">Skilled in database management with SQL, relational schema design, query optimization, normalization, and data storage.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 95%"></span>
+            </div>
+          </div>
+
+          <div class="skill-card" id="skill-risk">
+            <div class="skill-card__icon" aria-hidden="true">🛡️</div>
+            <h3 class="skill-card__title">IT Risk &amp; Business Continuity</h3>
+            <p class="skill-card__desc">Disaster recovery planning, security controls implementation, risk analysis, and maintaining service availability.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 92%"></span>
+            </div>
+          </div>
+
+          <div class="skill-card" id="skill-sad">
+            <div class="skill-card__icon" aria-hidden="true">◈</div>
+            <h3 class="skill-card__title">Systems Analysis &amp; Design</h3>
+            <p class="skill-card__desc">Requirements engineering, system workflow analysis, process documentation, and designing operational applications.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 90%"></span>
+            </div>
+          </div>
+
+          <div class="skill-card" id="skill-cyber">
+            <div class="skill-card__icon" aria-hidden="true">🔒</div>
+            <h3 class="skill-card__title">Cybersecurity Controls (Cisco)</h3>
+            <p class="skill-card__desc">Certified in Introduction to Cybersecurity by Cisco Networking Academy: security controls, threat defense, and data protection.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 88%"></span>
+            </div>
+          </div>
+
+          <div class="skill-card" id="skill-excel">
+            <div class="skill-card__icon" aria-hidden="true">📊</div>
+            <h3 class="skill-card__title">Process Documentation &amp; Excel</h3>
+            <p class="skill-card__desc">Comprehensive process documentation, spreadsheet analysis, formula automation, and data reporting using Microsoft Excel.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 92%"></span>
+            </div>
+          </div>
+
+          <div class="skill-card" id="skill-web">
+            <div class="skill-card__icon" aria-hidden="true">🌐</div>
+            <h3 class="skill-card__title">Web Pages &amp; AI Technologies</h3>
+            <p class="skill-card__desc">Building basic web pages (HTML, CSS, JavaScript) and utilizing AI tools and software technologies for research and programming.</p>
+            <div class="skill-card__level" role="img" aria-label="Proficiency: Advanced">
+              <span class="skill-bar" style="--w: 86%"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__tags">
+          <span class="tag">SQL Database Management</span>
+          <span class="tag">IT Risk Management</span>
+          <span class="tag">Business Continuity</span>
+          <span class="tag">Disaster Recovery</span>
+          <span class="tag">Security Controls</span>
+          <span class="tag">Cisco Cybersecurity</span>
+          <span class="tag">Systems Analysis &amp; Design</span>
+          <span class="tag">Process Documentation</span>
+          <span class="tag">Microsoft Excel Reporting</span>
+          <span class="tag">Web Page Building</span>
+          <span class="tag">AI Tools (Armada Logics Caravan)</span>
+          <span class="tag">Smart Coding Seminar</span>
+          <span class="tag">SIBOL Incubation Program</span>
+          <span class="tag">Leadership &amp; Plain-Language Presentations</span>
+          <span class="tag">Japan IT Quality Mindset</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ─── -->
+    <section class="section projects" id="projects" aria-label="Portfolio projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">03</span>
+            <span class="section-label__text">Selected Systems</span>
+          </div>
+          <h2 class="section-title">Featured Applications &amp;<br/><em>IS Projects</em></h2>
+        </div>
+
+        <div class="projects__filter" role="tablist" aria-label="Project filter">
+          <button class="filter-btn filter-btn--active" role="tab" aria-selected="true" data-filter="all" id="filter-all">All</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="database" id="filter-database">Database &amp; Web Systems</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="security" id="filter-security">IT Risk &amp; Security</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="service" id="filter-service">Service &amp; Incubation</button>
+        </div>
+
+        <div class="projects__grid" id="projects-grid">
+
+          <!-- Featured Project from Resume -->
+          <article class="project-card project-card--featured" data-category="database" id="project-attendance">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img project-placeholder project-placeholder--portal" role="img" aria-label="Student Attendance Management System">
+                <div class="placeholder-inner">
+                  <div class="placeholder-botanical">
+                    <span class="botanical-circle" style="background:#1e3a5f;"></span>
+                    <span class="botanical-leaf botanical-leaf--1" style="background:#8B6914;"></span>
+                    <span class="botanical-leaf botanical-leaf--2" style="background:#2d6a4f;"></span>
+                  </div>
+                  <div class="placeholder-tagline">Student Attendance System</div>
+                </div>
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View System Details ↗</span>
+              </div>
+              <div class="project-card__badge">Featured System</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Student Attendance Management System</h3>
+              <p class="project-card__desc">A database-driven application designed to record, store, and manage student attendance efficiently. Instead of using paper attendance sheets, teachers can record attendance digitally, while administrators can easily access reports and monitor student attendance in real time.</p>
+              <div class="project-card__meta">
+                <span>SQL Database &amp; Web Interface</span>
+                <span>DMMMSU NLUC</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Cisco Cybersecurity Controls -->
+          <article class="project-card" data-category="security" id="project-cybersecurity">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img project-placeholder project-placeholder--itsm" role="img" aria-label="Cisco Cybersecurity Controls Lab">
+                <div class="placeholder-inner">
+                  <div class="placeholder-logo" style="background:#1a365d; color:#e2e8f0;">CISCO</div>
+                  <div class="placeholder-swatches">
+                    <span style="background:#0284c7" title="Cyber Blue"></span>
+                    <span style="background:#1e293b" title="Dark Slate"></span>
+                    <span style="background:#8B6914" title="Gold"></span>
+                    <span style="background:#10b981" title="Shield Green"></span>
+                  </div>
+                  <div class="placeholder-tagline">Cybersecurity &amp; Controls</div>
+                </div>
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View Security Specs ↗</span>
+              </div>
+              <div class="project-card__badge">Cisco Certified</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Cybersecurity Defense &amp; Threat Controls</h3>
+              <p class="project-card__desc">Implementation of foundational security controls, authentication safeguards, data confidentiality policies, and vulnerability defense based on Cisco Networking Academy standards.</p>
+              <div class="project-card__meta">
+                <span>Security Controls &amp; Auditing</span>
+                <span>Cisco Certified</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: IT Risk & Business Continuity Framework -->
+          <article class="project-card" data-category="security" id="project-risk-bcp">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img project-placeholder project-placeholder--bpmn" role="img" aria-label="IT Risk and Disaster Recovery Framework">
+                <div class="placeholder-inner">
+                  <div class="placeholder-editorial-grid">
+                    <div class="ed-block ed-block--title"></div>
+                    <div class="ed-block ed-block--text"></div>
+                    <div class="ed-block ed-block--image"></div>
+                    <div class="ed-block ed-block--text short"></div>
+                  </div>
+                  <div class="placeholder-tagline">Disaster Recovery &amp; BCP</div>
+                </div>
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View Framework ↗</span>
+              </div>
+              <div class="project-card__badge">Risk &amp; Continuity</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">IT Risk Assessment &amp; Disaster Recovery Plan</h3>
+              <p class="project-card__desc">Proactive framework for organizational resilience, disaster recovery procedures, and continuous service availability designed to meet stringent IT service management standards.</p>
+              <div class="project-card__meta">
+                <span>Business Continuity / IT Risk</span>
+                <span>Service Management</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Process Documentation & Excel Analytics -->
+          <article class="project-card" data-category="database" id="project-excel-reporting">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img project-placeholder project-placeholder--inventory" role="img" aria-label="Excel Reporting and Process Documentation">
+                <div class="placeholder-inner">
+                  <div class="placeholder-package">
+                    <div class="pkg-bag" style="background:#107c41;"></div>
+                    <div class="pkg-label" style="background:#8B6914;">EXCEL<br/>DATA</div>
+                  </div>
+                  <div class="placeholder-tagline">Process Documentation</div>
+                </div>
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View Reports ↗</span>
+              </div>
+              <div class="project-card__badge">Data Reporting</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Process Documentation &amp; Data Reporting System</h3>
+              <p class="project-card__desc">Analytical spreadsheet models, formula-driven reporting dashboards, and standard operating procedures (SOPs) for clear, non-technical organizational decision-making.</p>
+              <div class="project-card__meta">
+                <span>Microsoft Excel &amp; Documentation</span>
+                <span>Systems Analysis</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: SIBOL Startup Incubation Solution -->
+          <article class="project-card" data-category="service" id="project-sibol">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img-logo-container" style="background: #ffffff; height: 240px; display: flex; align-items: center; justify-content: center; padding: 1.5rem; transition: transform 0.5s var(--ease);">
+                <img src="assets/sibol_logo.png" alt="DMMMSU-CHED SIBOL Project Logo" style="max-height: 100%; max-width: 100%; object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.06));" />
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View Venture Model ↗</span>
+              </div>
+              <div class="project-card__badge">DMMMSU-CHED SIBOL</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">DMMMSU-CHED SIBOL: Startup Incubation System</h3>
+              <p class="project-card__desc">Participated in the DMMMSU-CHED SIBOL incubation initiative for startup development, designing user-centered service blueprints, functional specifications, and technology feasibility plans.</p>
+              <div class="project-card__meta">
+                <span>Venture Incubation &amp; Service Design</span>
+                <span>DMMMSU-CHED SIBOL • 2026</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: AI Tools & Smart Coding Prototype -->
+          <article class="project-card" data-category="database" id="project-ai-smartcoding">
+            <div class="project-card__img-wrap">
+              <div class="project-card__img project-placeholder project-placeholder--agri" role="img" aria-label="Smart Coding and AI Tools Prototype">
+                <div class="placeholder-inner">
+                  <div class="placeholder-map">
+                    <div class="map-grid-line map-grid-line--h"></div>
+                    <div class="map-grid-line map-grid-line--v"></div>
+                    <div class="map-dot map-dot--1"></div>
+                    <div class="map-dot map-dot--2"></div>
+                    <div class="map-dot map-dot--3"></div>
+                    <div class="map-label">AI TOOLS</div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card__overlay">
+                <span class="project-card__view">View Prototype ↗</span>
+              </div>
+              <div class="project-card__badge">AI &amp; Web Seminar</div>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Smart Coding &amp; AI-Assisted Web Solutions</h3>
+              <p class="project-card__desc">Applying cutting-edge AI tools and software technologies from Armada Logics' School Caravan and the Smart Coding Workshop to accelerate web development and technical research.</p>
+              <div class="project-card__meta">
+                <span>AI Tools &amp; Web Development</span>
+                <span>Armada Logics / Smart Coding</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROCESS / METHODOLOGY ─── -->
+    <section class="section process" id="process" aria-label="Systems development lifecycle">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">03.5</span>
+            <span class="section-label__text">Methodology</span>
+          </div>
+          <h2 class="section-title">Systems &amp; Service<br/><em>lifecycle</em></h2>
+        </div>
+
+        <div class="process__grid">
+          <div class="process-step" id="process-discover">
+            <div class="process-step__num" aria-hidden="true">01</div>
+            <div class="process-step__icon" aria-hidden="true">🔍</div>
+            <h3 class="process-step__title">Discover &amp; Analyze</h3>
+            <p class="process-step__desc">Stakeholder interviews, operational pain-point elicitation, and existing business workflow analysis to formulate clear system requirements.</p>
+          </div>
+
+          <div class="process-step" id="process-define">
+            <div class="process-step__num" aria-hidden="true">02</div>
+            <div class="process-step__icon" aria-hidden="true">📐</div>
+            <h3 class="process-step__title">Model &amp; Architect</h3>
+            <p class="process-step__desc">Designing BPMN 2.0 process flows, relational database ERDs, UML use case architectures, and user-friendly interface wireframes.</p>
+          </div>
+
+          <div class="process-step" id="process-design">
+            <div class="process-step__num" aria-hidden="true">03</div>
+            <div class="process-step__icon" aria-hidden="true">💻</div>
+            <h3 class="process-step__title">Develop &amp; Integrate</h3>
+            <p class="process-step__desc">Writing clean, modular code, setting up normalized database structures, building responsive interfaces, and conducting unit tests.</p>
+          </div>
+
+          <div class="process-step" id="process-deliver">
+            <div class="process-step__num" aria-hidden="true">04</div>
+            <div class="process-step__icon" aria-hidden="true">🚀</div>
+            <h3 class="process-step__title">Deploy &amp; Support</h3>
+            <p class="process-step__desc">User Acceptance Testing (UAT), service catalog onboarding, SLA measurement, and comprehensive technical documentation handoff.</p>
+          </div>
+        </div>
+
+        <!-- Core capabilities -->
+        <div class="services__list" aria-label="Capabilities offered">
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">◈</span>
+            <div>
+              <h4 class="service-item__title">Systems Analysis &amp; Requirements (SAD)</h4>
+              <p class="service-item__desc">SRS specifications, UML use cases, architecture blueprints, feasibility studies</p>
+            </div>
+            <span class="service-item__price">Core Competency</span>
+          </div>
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">⚙️</span>
+            <div>
+              <h4 class="service-item__title">IT Service Management (ITSM)</h4>
+              <p class="service-item__desc">ITIL-aligned helpdesk flows, service catalog design, incident routing, SLA setup</p>
+            </div>
+            <span class="service-item__price">SMP Track</span>
+          </div>
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">🗄️</span>
+            <div>
+              <h4 class="service-item__title">Database Modeling &amp; Architecture</h4>
+              <p class="service-item__desc">Normalized ERD schemas, MySQL database creation, transactional queries</p>
+            </div>
+            <span class="service-item__price">Core Competency</span>
+          </div>
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">🌐</span>
+            <div>
+              <h4 class="service-item__title">Web Information Systems</h4>
+              <p class="service-item__desc">Dynamic database-backed portals, student &amp; enterprise management platforms</p>
+            </div>
+            <span class="service-item__price">Core Competency</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIENCE & SEMINARS ─── -->
+    <section class="section experience" id="experience" aria-label="Work, seminars, & academic experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">04</span>
+            <span class="section-label__text">Seminars &amp; Milestones</span>
+          </div>
+          <h2 class="section-title">Seminars, Honors &amp;<br/><em>milestones</em></h2>
+        </div>
+
+        <div class="timeline">
+          <!-- 2026 Milestone: DMMMSU-CHED SIBOL -->
+          <div class="timeline__item" id="exp-sibol">
+            <div class="timeline__date">2026</div>
+            <div class="timeline__content">
+              <div class="timeline__connector" aria-hidden="true"></div>
+              <div class="timeline__body">
+                <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 6px;">
+                  <div>
+                    <h3 class="timeline__title">DMMMSU-CHED SIBOL: Startup Incubation Program</h3>
+                    <span class="timeline__company">Student-based Incubation Program for Start-up Development</span>
+                  </div>
+                  <img src="assets/sibol_logo.png" alt="DMMMSU-CHED SIBOL Logo" style="width: 44px; height: 44px; object-fit: contain; background: #ffffff; border-radius: 4px; padding: 4px; border: 1px solid var(--paper-shadow); box-shadow: var(--shadow-sm); flex-shrink: 0;" />
+                </div>
+                <p class="timeline__desc">Engaged in comprehensive startup incubation under DMMMSU-CHED SIBOL, developing technology roadmaps, user requirement analysis, and scalable digital service designs for early-stage ventures.</p>
+                <div class="timeline__tags">
+                  <span>2026</span>
+                  <span>DMMMSU-CHED</span>
+                  <span>SIBOL Incubation</span>
+                  <span>Startup Development</span>
+                  <span>Service Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Excellence: Dean's Lister -->
+          <div class="timeline__item" id="exp-deans-lister">
+            <div class="timeline__date">AY 2024 — 2025 (2nd Semester)</div>
+            <div class="timeline__content">
+              <div class="timeline__connector" aria-hidden="true"></div>
+              <div class="timeline__body">
+                <h3 class="timeline__title">Dean's Lister — Academic Excellence Award</h3>
+                <span class="timeline__company">Don Mariano Marcos Memorial State University – NLUC</span>
+                <p class="timeline__desc">Recognized for outstanding academic achievement in the Bachelor of Science in Information Systems (BSIS) program during the 2nd Semester of Academic Year 2024–2025.</p>
+                <div class="timeline__tags">
+                  <span>Dean's Lister</span>
+                  <span>Academic Honors</span>
+                  <span>BSIS - SMP</span>
+                  <span>DMMMSU NLUC</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cisco Certification -->
+          <div class="timeline__item" id="exp-cisco">
+            <div class="timeline__date">2024</div>
+            <div class="timeline__content">
+              <div class="timeline__connector" aria-hidden="true"></div>
+              <div class="timeline__body">
+                <h3 class="timeline__title">Introduction to Cybersecurity Certification</h3>
+                <span class="timeline__company">Cisco Networking Academy</span>
+                <p class="timeline__desc">Earned formal certification in foundational cybersecurity principles, threat defense tactics, confidentiality safeguards, and security control architectures to protect enterprise information systems.</p>
+                <div class="timeline__tags">
+                  <span>Cisco Certified</span>
+                  <span>Cybersecurity Controls</span>
+                  <span>Threat Defense</span>
+                  <span>Risk Mitigation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item" id="exp-ai-caravan">
+            <div class="timeline__date">2024</div>
+            <div class="timeline__content">
+              <div class="timeline__connector" aria-hidden="true"></div>
+              <div class="timeline__body">
+                <h3 class="timeline__title">Armada Logics' School Caravan &amp; Smart Coding Workshop</h3>
+                <span class="timeline__company">AI Tools and Software Technologies for Programming &amp; Research</span>
+                <p class="timeline__desc">Participated in hands-on seminars: <em>Armada Logics' School Caravan</em> focusing on AI tools for programming and research, and the <em>Smart Coding Seminar-Workshop</em> on tips, tricks, and website building with AI.</p>
+                <div class="timeline__tags">
+                  <span>AI Tools</span>
+                  <span>Armada Logics</span>
+                  <span>Smart Coding</span>
+                  <span>Website Building</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EDUCATION ─── -->
+    <section class="section education" id="education" aria-label="Education history">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">05</span>
+            <span class="section-label__text">Education &amp; Credentials</span>
+          </div>
+          <h2 class="section-title">Educational<br/><em>journey</em></h2>
+        </div>
+
+        <div class="education__grid">
+          <!-- College: DMMMSU NLUC -->
+          <div class="edu-card" id="edu-college">
+            <div class="edu-card__year">2024 — Present</div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__title">Bachelor of Science in Information Systems</h3>
+              <p class="edu-card__institution">Specializing in Service Management Program (SMP)</p>
+              <p class="edu-card__school">Don Mariano Marcos Memorial State University – NLUC<br/>Sapilang, Bacnotan, La Union</p>
+              <p class="edu-card__note">Honors &amp; Core Focus: Dean's Lister (2nd Sem AY 2024–2025). IT Risk &amp; Business Continuity, Disaster Recovery, Security Controls, Database Management (SQL), Systems Analysis &amp; Design.</p>
+            </div>
+            <div class="edu-card__deco" aria-hidden="true">🎓</div>
+          </div>
+
+          <!-- Senior High: Sinapangan NHS -->
+          <div class="edu-card" id="edu-shs">
+            <div class="edu-card__year">2023 — 2024</div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__title">Senior High School</h3>
+              <p class="edu-card__institution">Secondary Education Graduate</p>
+              <p class="edu-card__school">Sinapangan National High School<br/>Tallipugo, Balaoan, La Union</p>
+              <p class="edu-card__note">Cultivated analytical inquiry, team project leadership, research methodologies, and foundational computer applications.</p>
+            </div>
+            <div class="edu-card__deco" aria-hidden="true">📜</div>
+          </div>
+
+          <!-- Junior High: Sinapangan NHS -->
+          <div class="edu-card" id="edu-jhs">
+            <div class="edu-card__year">2021 — 2022</div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__title">Junior High School</h3>
+              <p class="edu-card__institution">Secondary Education Completer</p>
+              <p class="edu-card__school">Sinapangan National High School<br/>Tallipugo, Balaoan, La Union</p>
+              <p class="edu-card__note">Solid academic grounding in mathematics, science, digital literacy, and collaborative classroom presentations.</p>
+            </div>
+            <div class="edu-card__deco" aria-hidden="true">📚</div>
+          </div>
+
+          <!-- Elementary: Calliat Elementary School -->
+          <div class="edu-card" id="edu-elem">
+            <div class="edu-card__year">2017 — 2018</div>
+            <div class="edu-card__body">
+              <h3 class="edu-card__title">Elementary School</h3>
+              <p class="edu-card__institution">Primary Education Graduate</p>
+              <p class="edu-card__school">Calliat Elementary School<br/>Calliat, Balaoan, La Union</p>
+              <p class="edu-card__note">Foundational academic years fostering dedication, curiosity in technology, and early school leadership.</p>
+            </div>
+            <div class="edu-card__deco" aria-hidden="true">🌱</div>
+          </div>
+        </div>
+
+        <!-- Credentials & Honors Summary Strip -->
+        <div class="services__list" id="credentials" style="margin-top: var(--space-xl);" aria-label="Official credentials and honors">
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">🏆</span>
+            <div>
+              <h4 class="service-item__title">Dean's Lister — 2nd Semester, AY 2024–2025</h4>
+              <p class="service-item__desc">Don Mariano Marcos Memorial State University – North La Union Campus (NLUC)</p>
+            </div>
+            <span class="service-item__price">Honor Award</span>
+          </div>
+
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">🛡️</span>
+            <div>
+              <h4 class="service-item__title">Introduction to Cybersecurity Certification</h4>
+              <p class="service-item__desc">Cisco Networking Academy — Security Controls, Threat Defense, &amp; System Safeguards</p>
+            </div>
+            <span class="service-item__price">Cisco Certified</span>
+          </div>
+
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 38px; height: 38px;">
+              <img src="assets/sibol_logo.png" alt="DMMMSU-CHED SIBOL Logo" style="width: 100%; height: 100%; object-fit: contain; background: #ffffff; border-radius: 4px; padding: 2px;" />
+            </span>
+            <div>
+              <h4 class="service-item__title">DMMMSU-CHED SIBOL Project: Startup Incubation (2026)</h4>
+              <p class="service-item__desc">Student-based Incubation Program for Start-up Development &amp; Digital Innovation</p>
+            </div>
+            <span class="service-item__price">2026 Incubation</span>
+          </div>
+
+          <div class="service-item">
+            <span class="service-item__icon" aria-hidden="true">🤖</span>
+            <div>
+              <h4 class="service-item__title">AI Tools &amp; Smart Coding Seminar-Workshops</h4>
+              <p class="service-item__desc">Armada Logics' School Caravan (AI Tools &amp; Research) + Smart Coding Website Building Workshop</p>
+            </div>
+            <span class="service-item__price">Specialized Seminars</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── BLOG / JOURNAL ─── -->
+    <section class="section blog" id="blog" aria-label="Blog and insights">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">06</span>
+            <span class="section-label__text">IS Insights</span>
+          </div>
+          <h2 class="section-title">Thoughts &amp;<br/><em>perspectives</em></h2>
+        </div>
+
+        <div class="blog__grid">
+          <article class="blog-card" id="blog-risk">
+            <div class="blog-card__meta">
+              <span class="blog-card__tag">IT Risk &amp; BCP</span>
+              <span class="blog-card__date">Academic Note</span>
+            </div>
+            <h3 class="blog-card__title">Business Continuity &amp; Disaster Recovery: Keeping Services Running</h3>
+            <p class="blog-card__excerpt">Modern enterprise systems cannot afford prolonged downtime. Integrating security controls and resilient disaster recovery protocols guarantees unbroken operational continuity...</p>
+            <a href="#projects" class="blog-card__link" id="blog-link-1">Explore Security Controls →</a>
+          </article>
+
+          <article class="blog-card" id="blog-japan">
+            <div class="blog-card__meta">
+              <span class="blog-card__tag">Career Vision</span>
+              <span class="blog-card__date">Japan IT Industry</span>
+            </div>
+            <h3 class="blog-card__title">Striving for High Quality: Applying Kaizen &amp; Service Management</h3>
+            <p class="blog-card__excerpt">Why Japan's IT industry sets the global benchmark for precision and service quality, and how continuous incremental improvement shapes resilient systems engineering...</p>
+            <a href="#about" class="blog-card__link" id="blog-link-2">Read Career Objective →</a>
+          </article>
+
+          <article class="blog-card" id="blog-attendance">
+            <div class="blog-card__meta">
+              <span class="blog-card__tag">Database Systems</span>
+              <span class="blog-card__date">Featured Project</span>
+            </div>
+            <h3 class="blog-card__title">Replacing Paper Sheets: Building a Database-Driven Attendance System</h3>
+            <p class="blog-card__excerpt">How transitioning from manual paper attendance sheets to SQL-backed digital recording empowers teachers and administrators with real-time analytics and transparency...</p>
+            <a href="#projects" class="blog-card__link" id="blog-link-3">View Attendance System →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── TESTIMONIALS ─── -->
+    <section class="section testimonials" id="testimonials" aria-label="Academic and project endorsements">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">07</span>
+            <span class="section-label__text">Endorsements</span>
+          </div>
+          <h2 class="section-title">What mentors &amp; peers<br/><em>say</em></h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <blockquote class="testimonial-card" id="testimonial-1">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <p class="testimonial-card__text">Navalta Femar demonstrates exceptional dedication as a BS Information Systems student—combining rigorous database modeling with a deep commitment to service management quality and IT risk resilience.</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">IT Faculty Member</span>
+              <span class="testimonial-card__role">College of Information Technology, DMMMSU NLUC</span>
+            </footer>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          </blockquote>
+
+          <blockquote class="testimonial-card testimonial-card--accent" id="testimonial-2">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <p class="testimonial-card__text">Femar's leadership during group project presentations stands out. He explains technical database structures and security controls in plain language, keeping the entire team aligned.</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">Project Group Teammate</span>
+              <span class="testimonial-card__role">BSIS Classmate, DMMMSU NLUC</span>
+            </footer>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          </blockquote>
+
+          <blockquote class="testimonial-card" id="testimonial-3">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <p class="testimonial-card__text">His active participation in the SIBOL startup incubation and AI technology workshops reflects a forward-looking mindset well-suited for high-standard IT and business continuity roles.</p>
+            <footer class="testimonial-card__footer">
+              <span class="testimonial-card__name">Workshop Mentor</span>
+              <span class="testimonial-card__role">Innovation &amp; Incubation Program</span>
+            </footer>
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="section contact" id="contact" aria-label="Contact section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <span class="section-label__num">08</span>
+            <span class="section-label__text">Get in Touch</span>
+          </div>
+          <h2 class="section-title">Let's connect &amp;<br/><em>collaborate</em><br/>on IT systems</h2>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <p class="contact__intro">I am looking for an entry-level role in IT risk and business continuity, opportunities in Japan's IT industry, or academic and project collaborations in systems analysis and database management.</p>
+
+            <div class="contact__details">
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">✉</span>
+                <a href="mailto:femarnavalta@gmail.com" class="contact__link" id="contact-email">femarnavalta@gmail.com</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">📞</span>
+                <a href="tel:+6309954310938" class="contact__link" id="contact-phone">+63 09954310938</a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">📍</span>
+                <span class="contact__link" id="contact-location">La Union, Philippines (DMMMSU NLUC)</span>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">🎓</span>
+                <span class="contact__link" id="contact-course">BSIS — Service Management Program</span>
+              </div>
+              <div class="contact__item">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </span>
+                <a href="https://github.com/Shiru132002" target="_blank" rel="noopener noreferrer" class="contact__link" id="contact-github">github.com/Shiru132002</a>
+              </div>
+            </div>
+
+            <div class="contact__availability">
+              <div class="availability-dot" aria-hidden="true"></div>
+              <span>Open to Entry-Level Roles, Internships &amp; IT Opportunities</span>
+            </div>
+
+            <div style="margin-top: var(--space-md);">
+              <a href="assets/Navalta_Femar_Resume.pdf" download="Navalta_Femar_Resume.pdf" class="btn btn--secondary" id="contact-resume-download" style="width: 100%; text-align: center; justify-content: center;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download Official Resume (PDF)
+              </a>
+            </div>
+          </div>
+
+          <form class="contact__form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Maria Santos" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contact-email-input" class="form-label">Email Address</label>
+              <input type="email" id="contact-email-input" name="email" class="form-input" placeholder="maria@example.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="contact-project" class="form-label">Inquiry / Opportunity Type</label>
+              <select id="contact-project" name="project" class="form-input form-select">
+                <option value="">Select an opportunity or inquiry...</option>
+                <option value="risk">IT Risk &amp; Business Continuity Opportunity</option>
+                <option value="japan">Japan IT Industry Inquiry / Placement</option>
+                <option value="database">Database Management &amp; SQL Project</option>
+                <option value="systems">Systems Analysis &amp; Process Documentation</option>
+                <option value="cybersecurity">Cybersecurity &amp; Security Controls</option>
+                <option value="internship">Internship / Entry-Level Role</option>
+                <option value="other">General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea id="contact-message" name="message" class="form-input form-textarea" placeholder="Tell me about your role, collaboration opportunity, or project inquiry..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="contact-submit">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── PROJECT CASE STUDY MODAL ─── -->
+  <div class="project-modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="project-modal__content" role="document">
+      <button class="project-modal__close" id="modal-close" aria-label="Close modal">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ─── SCROLL TO TOP ─── -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__name">Navalta Femar M.</span>
+          <p class="footer__tagline">BS Information Systems (Service Management Program) — DMMMSU NLUC</p>
+          <p style="font-size: 0.82rem; color: var(--ink-light); margin-top: 4px;">La Union, Philippines | +63 09954310938 | femarnavalta@gmail.com</p>
+        </div>
+        <div class="footer__links">
+          <a href="#about" class="footer__link">About</a>
+          <a href="#skills" class="footer__link">Skills</a>
+          <a href="#projects" class="footer__link">Work</a>
+          <a href="#process" class="footer__link">Methodology</a>
+          <a href="#experience" class="footer__link">Milestones</a>
+          <a href="#education" class="footer__link">Education</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </div>
+        <div class="footer__social">
+          <a href="mailto:femarnavalta@gmail.com" class="social-btn" id="social-email" aria-label="Email Femar Navalta">✉</a>
+          <a href="tel:+6309954310938" class="social-btn" id="social-phone" aria-label="Call Femar Navalta">📞</a>
+          <a href="https://github.com/Shiru132002" target="_blank" rel="noopener noreferrer" class="social-btn" id="social-github" aria-label="GitHub profile of Femar Navalta" title="GitHub: Shiru132002" style="display: inline-flex; align-items: center; justify-content: center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="assets/Navalta_Femar_Resume.pdf" download="Navalta_Femar_Resume.pdf" class="social-btn" id="social-resume" aria-label="Download Resume PDF">CV</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024–2025 Navalta Femar M. Don Mariano Marcos Memorial State University – North La Union Campus.</p>
+        <p class="footer__handwritten">Aspiring IT Risk &amp; Business Continuity Specialist — Service Management Program 🇯🇵 💻</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
